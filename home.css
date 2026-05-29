@@ -22,13 +22,65 @@ nav{
         color: white;
         text-decoration: none;
         padding: 0 20px;
+        display: inline-block;
+        transition: 0.2s;
+    }
+
+    a:hover{
+        transform: scale(1.20);
     }
 }
 
 main{
-    margin: 30px;
     padding: 50px;
     height: 600px;
+
+    .main-container{
+        background-color: #ccc;
+        border-top: 3px solid #333;
+        border-left: 3px solid #333;
+        border-right: 3px solid #333;
+        padding: 50px;
+    }
+
+    .main-title{
+        text-decoration: underline;
+    }
+
+    .main-info{
+        padding: 20px 0;
+    }
+
+    .second-container{
+        background-color: #333;
+        border-left: 3px solid #333;
+        border-right: 3px solid #333;
+        padding: 50px;
+
+        .rating{
+            display: flex;
+            justify-content: space-around;
+
+            p{
+                color: white;
+                font-size: 20px;
+            }
+        }
+
+        .lcr{
+            display: flex;
+            justify-content: space-around;
+
+            p{
+                color: #ccc;
+                font-size: 15px;
+                padding: 20px 200px;
+                border-right: 3px solid #ccc;
+            }
+        }
+    }
+
+
 }
 
 footer{
