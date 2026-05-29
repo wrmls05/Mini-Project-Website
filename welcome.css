@@ -20,6 +20,11 @@ nav{
         color: white;
         text-decoration: none;
         padding: 0 20px;
+        display: inline-block;
+        transition: 0.3s;
+    }
+    a:hover{
+        transform: scale(1.20);
     }
 }
 main{
@@ -41,20 +46,28 @@ main{
 
     .main-btn{
         background-color: #111;
+        border: 1px solid #111;
+        border-radius: 10px;
         padding: 10px 10px;
         display: inline-block;
-        /* margin-top: 100px; */
         color: white;
         text-decoration: none;
         cursor: pointer;
+        transition: 0.2s;
         
+    }
+
+    .main-btn:hover{
+        background-color: #ccc;
+        color: #111;
+        transform: scale(1.01);
     }
 
     .box-readmore{
         margin: 10px 0;
-        padding: 20px;
-        background-color: #ddd;
-        border-radius: 15px;
+        padding: 10px;
+        border: 2px solid #ddd;
+        border-radius: 10px;
 
         .more-text{
             padding: 10px;
