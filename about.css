@@ -28,7 +28,69 @@ nav{
 main{
     margin: 30px;
     padding: 50px;
-    height: 600px;
+    height: 800px;
+
+    .main-container{
+        background-color: #ccc;
+        border: 3px solid #333;
+        padding: 50px;
+
+        .main-title{
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+        .main-info{
+            padding: 20px 0;
+            text-align: center;
+            line-height: 1.8;
+        }
+    }
+
+    .second-container{
+        padding: 50px;
+
+        .second-title{
+            font-size: 30px;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        .second-info{
+            text-align: center;
+        }
+    }
+
+    .box-container{
+        display: flex;
+        justify-content: center;
+
+        .box{
+            background-color: #ccc;
+            width: 300px;
+            height: 300px;
+            border: 3px solid #ccc;
+            border-radius: 30px;
+            margin: 0 20px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            img{
+                width: 150px;
+                height: auto;
+            }
+
+            .name{
+                margin: 10px;
+                font-size: 20px;
+            }
+            .position{
+                color: gray;
+            }
+        }
+    }
 }
 
 footer{

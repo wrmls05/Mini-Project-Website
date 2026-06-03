@@ -74,8 +74,11 @@ main{
             p{
                 color: #ccc;
                 font-size: 15px;
-                padding: 20px 200px;
+                padding: 20px 165px;
                 border-right: 3px solid #ccc;
+            }
+            p:last-child{
+                border-right: none;
             }
         }
     }
