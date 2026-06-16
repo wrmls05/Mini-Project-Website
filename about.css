@@ -34,6 +34,7 @@ main{
         background-color: #ccc;
         border: 3px solid #333;
         padding: 50px;
+        border-radius: 10px;
 
         .main-title{
             text-align: center;
@@ -69,7 +70,7 @@ main{
             width: 300px;
             height: 300px;
             border: 3px solid #ccc;
-            border-radius: 30px;
+            border-radius: 10px;
             margin: 0 20px;
 
             display: flex;

@@ -35,6 +35,7 @@ main{
         background-color: #ccc;
         padding: 50px;
         border: 3px solid #333;
+        border-radius: 10px;
     }
 
     .main-title{
@@ -67,8 +68,10 @@ main{
     .box-readmore{
         margin: 10px 0;
         padding: 10px;
-        background-color: gainsboro;
-        border-radius: 30px;
+        /* background-color: gainsboro; */
+        border-radius: 10px;
+        border: 2px solid;
+
 
         .more-text{
             padding: 10px;
