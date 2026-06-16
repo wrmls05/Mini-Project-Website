@@ -39,7 +39,7 @@ main{
         
         display: flex;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
         
 
         h1{
@@ -54,11 +54,12 @@ main{
         .box-contact{
             width: 450px;
             margin: 10px 0;
-            padding: 20px;
-            background-color: red;
+            padding: 20px 0;
+            /* background-color: red; */
 
             display: flex;
             align-items: center;
+            justify-content: left;
 
             gap: 20px;
 
@@ -89,24 +90,74 @@ main{
             }
         }
     }
-}
 
-.send-container{
-    width: 800px;
-    height: 550px;
-    background-color: green;
+    .send-container{
+        width: 800px;
+        height: 550px;
+        background-color: #ccc;
+        color: black;
 
-    padding: 30px;
+        padding: 30px;
 
-    display: flex;
+        h2{
+            font-size: 34px;
+        }
 
-    h2{
-        font-size: 34px;
+        .row{
+            display: flex;
+            gap: 80px;
+        }
+
+        .input-group{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 15px 0;
+            font-size: 20px;
+
+            label{
+                padding-bottom: 10px;
+            }
+
+            input{
+                width: 100%;
+                height: 30px;
+                padding: 15px;
+                background-color: #ccc;
+
+                box-sizing: border-box;
+
+                border: 2px solid;
+                border-radius: 8px;
+            }
+            textarea{
+                border: 2px solid;
+                border-radius: 8px;
+                height: 50px;
+                padding: 15px;
+                background-color: #ccc;
+            }
+        }
+        .send-btn{
+            width: 100%;
+            height: 40px;
+            border: 2px solid;
+            border-radius: 8px;
+            margin-top: 25px;
+            font-size: 24px;
+            background-color: #ccc;
+
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .send-btn:hover{
+            background-color: #333;
+            color: #ccc;
+            transform: scale(1.05);
+        }
     }
-
-    
-
 }
+
 
 footer{
     background-color: #111;
